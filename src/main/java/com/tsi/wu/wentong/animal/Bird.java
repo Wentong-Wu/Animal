@@ -1,3 +1,5 @@
+package com.tsi.wu.wentong.animal;
+
 public abstract class Bird extends Animal{
     @Override
     public String breath() {

@@ -1,4 +1,10 @@
+package com.tsi.wu.wentong.animal;
+
 public class Bat extends Mammal implements Flying{
+
+    public Bat(String name){
+        this.setName(name);
+    }
     @Override
     public String eat() {
         return "Blood..???";

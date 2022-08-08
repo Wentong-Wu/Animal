@@ -1,3 +1,5 @@
+package com.tsi.wu.wentong.animal;
+
 public class FlyingRat extends Bird implements Flying{
     @Override
     public String eat() {
