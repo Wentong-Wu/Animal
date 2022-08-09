@@ -6,9 +6,10 @@ public abstract class Animal {
 
     private int health;
     private String name;
-    public Animal()
+    public Animal(String name)
     {
         super();
+        this.name = name;
     }
     public abstract String eat();
     public abstract String breath();

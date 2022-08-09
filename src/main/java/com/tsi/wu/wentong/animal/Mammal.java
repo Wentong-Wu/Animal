@@ -6,9 +6,18 @@ public abstract class Mammal extends Animal{
 
     private boolean hair;
 
-    public Mammal()
+    public Mammal(String name, boolean hair)
     {
-        super();
+        super(name);
+        this.hair = hair;
+    }
+
+    public boolean isHair() {
+        return hair;
+    }
+
+    public void setHair(boolean hair) {
+        this.hair = hair;
     }
 
     @Override

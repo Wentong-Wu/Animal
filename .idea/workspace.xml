@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be9b2e64-e5a1-4c9c-995a-11a1b5b1de75" name="Changes" comment="Smily FAce">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Bat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Flying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlyingRat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/FlyingRat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Penguin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Bat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/FlyingRat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/FlyingRat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Mammal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Penguin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/Tom Wu/IntelliJ/Java/Animal/src/main/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Tom Wu/IntelliJ/Java/Animal/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -85,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659962817130</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Smily FAce">
+      <created>1659976290743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659976290743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
