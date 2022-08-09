@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CatTest {
-    //WDYM Test fail?
     Cat testCat = new Cat("Timmy", true, true,10);
     String currentExpectedName = testCat.getName();
     @Test

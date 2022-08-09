@@ -7,6 +7,7 @@
     <list default="true" id="be9b2e64-e5a1-4c9c-995a-11a1b5b1de75" name="Changes" comment="Please work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,5 +191,10 @@
     <MESSAGE value="Added testing" />
     <MESSAGE value="Please work" />
     <option name="LAST_COMMIT_MESSAGE" value="Please work" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Animal$CatTest.ic" NAME="CatTest Coverage Results" MODIFIED="1660058825023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.test.*</FILTER>
+    </SUITE>
   </component>
 </project>
