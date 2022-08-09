@@ -9,7 +9,6 @@ public class Main {
         Tommy.Attack(vamp);
         System.out.println("vamp: "+vamp.scream());
         System.out.println("vamp health: "+vamp.getHealth());
-        Cat Tammy = (Cat) Tommy.breed(Timmy);
-        System.out.println(Tammy);
+
     }
 }

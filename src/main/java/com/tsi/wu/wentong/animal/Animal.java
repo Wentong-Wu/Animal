@@ -14,21 +14,8 @@ public abstract class Animal {
     }
     public abstract String eat();
     public abstract String breath();
-    //public abstract Animal breed(Animal partner);
-    public <T extends Animal>Animal breed(Animal partner){
-        Animal babyAnimal = null;
-        try{
-            babyAnimal = partner.getClass().getDeclaredConstructor().newInstance();
-        }catch (NoSuchMethodException nsm){
-            System.out.println("No method exists");
-        }
-        catch (Exception e){
-            System.out.println("Breed failed");
-        }finally {
-            return babyAnimal;
-        }
-    }
 
+    public abstract String breed();
 
     public String getName() {
         return name;
@@ -58,5 +45,6 @@ public abstract class Animal {
     public String Die(){
         return "RIP..";
     }
+
 
 }

@@ -24,4 +24,9 @@ public abstract class Mammal extends Animal{
     public String breath() {
         return "Inhale...";
     }
+
+    @Override
+    public String breed(){
+        return "Breeding";
+    }
 }
