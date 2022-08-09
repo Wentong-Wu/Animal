@@ -3,12 +3,11 @@ import com.tsi.wu.wentong.animal.*;
 public class Main {
     public static void main(String[] args)
     {
-        Cat Tommy = new Cat("Tommy", true, 10);
+        Cat Tommy = new Cat("Tommy",100, true, 10);
         Tommy.setName("Tommy");
-        System.out.print(Tommy.kill());
-        Bat vamp = new Bat("vamp",true);
-        System.out.println(vamp.takeOff());
-        System.out.println(Tommy.Sleep());
+        Bat vamp = new Bat("vamp",100,true);
         Tommy.Attack(vamp);
+        System.out.println("vamp: "+vamp.scream());
+        System.out.println("vamp health: "+vamp.getHealth());
     }
 }

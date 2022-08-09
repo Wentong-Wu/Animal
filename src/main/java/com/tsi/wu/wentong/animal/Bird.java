@@ -1,9 +1,9 @@
 package com.tsi.wu.wentong.animal;
 
 public abstract class Bird extends Animal{
-    public Bird(String name)
+    public Bird(String name, int health)
     {
-        super(name);
+        super(name,health);
     }
     @Override
     public String breath() {

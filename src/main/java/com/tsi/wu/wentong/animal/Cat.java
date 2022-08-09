@@ -1,11 +1,10 @@
 package com.tsi.wu.wentong.animal;
 
 public class Cat extends Mammal {
-    private String speak = "MEOW";
     private int Damagepower;
-    public Cat(String name, boolean hair, int damagepower)
+    public Cat(String name,int health, boolean hair, int damagepower)
     {
-        super(name,hair);
+        super(name,health,hair);
         this.Damagepower = damagepower;
     }
 

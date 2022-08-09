@@ -6,9 +6,9 @@ public abstract class Mammal extends Animal{
 
     private boolean hair;
 
-    public Mammal(String name, boolean hair)
+    public Mammal(String name, int health,boolean hair)
     {
-        super(name);
+        super(name,health);
         this.hair = hair;
     }
 

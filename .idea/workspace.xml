@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be9b2e64-e5a1-4c9c-995a-11a1b5b1de75" name="Changes" comment="Smily FAce">
+    <list default="true" id="be9b2e64-e5a1-4c9c-995a-11a1b5b1de75" name="Changes" comment="Added testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Animal.java" afterDir="false" />
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659976290743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added testing">
+      <created>1660033682063</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660033682063</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Smily FAce" />
-    <option name="LAST_COMMIT_MESSAGE" value="Smily FAce" />
+    <MESSAGE value="Added testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added testing" />
   </component>
 </project>
