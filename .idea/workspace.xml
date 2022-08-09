@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be9b2e64-e5a1-4c9c-995a-11a1b5b1de75" name="Changes" comment="Added testing" />
+    <list default="true" id="be9b2e64-e5a1-4c9c-995a-11a1b5b1de75" name="Changes" comment="Please work">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Mammal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660046525275</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Please work">
+      <created>1660047071519</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660047071519</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Smily FAce" />
     <MESSAGE value="Added testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testing" />
+    <MESSAGE value="Please work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Please work" />
   </component>
 </project>
