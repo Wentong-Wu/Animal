@@ -2,8 +2,8 @@ package com.tsi.wu.wentong.animal;
 
 public class Bat extends Mammal implements Flying{
 
-    public Bat(String name, int health,boolean hair){
-        super(name,health,hair);
+    public Bat(String name, boolean hair){
+        super(name,hair);
     }
     public String scream(){
         return "reeeeeeeeeeeee";
@@ -12,6 +12,7 @@ public class Bat extends Mammal implements Flying{
     public String eat() {
         return "Blood..???";
     }
+
     @Override
     public String takeOff() {
         return "Drop...Flap";

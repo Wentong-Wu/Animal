@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CatTest {
-    Cat testCat = new Cat("Timmy",100, true, 10);
+    Cat testCat = new Cat("Timmy", true, true,10);
     @Test
     public void test_get_cat_name(){
         assertEquals("Timmy",testCat.getName(),"getName method failed");

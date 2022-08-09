@@ -1,15 +1,15 @@
 package com.tsi.wu.wentong.animal;
 
-import java.util.Date;
-
 public abstract class Mammal extends Animal{
 
     private boolean hair;
+    private boolean isMale;
 
-    public Mammal(String name, int health,boolean hair)
+    public Mammal(String name, boolean hair, boolean isMale)
     {
-        super(name,health);
+        super(name);
         this.hair = hair;
+        this.isMale = isMale;
     }
 
     public boolean isHair() {
@@ -23,10 +23,5 @@ public abstract class Mammal extends Animal{
     @Override
     public String breath() {
         return "Inhale...";
-    }
-
-    @Override
-    public String breed() {
-        return "Reproducing...";
     }
 }
