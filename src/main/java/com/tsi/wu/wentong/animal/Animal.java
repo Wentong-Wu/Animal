@@ -1,13 +1,9 @@
 package com.tsi.wu.wentong.animal;
 
-import java.util.Date;
-
 public abstract class Animal {
-
-    //Hello plseohj
     private int health = 100;
     private String name;
-    public Animal(String name)
+    protected Animal(String name)
     {
         super();
         this.name = name;

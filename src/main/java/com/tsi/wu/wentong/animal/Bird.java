@@ -13,5 +13,4 @@ public abstract class Bird extends Animal{
     public String breed(){
         return "Breeding";
     }
-
 }
