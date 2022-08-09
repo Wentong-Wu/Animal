@@ -2,7 +2,7 @@ package com.tsi.wu.wentong.animal;
 
 public abstract class Mammal extends Animal{
 
-    private boolean hair;
+    private boolean hair = true;
     private boolean isMale;
 
     public Mammal(String name, boolean hair, boolean isMale)

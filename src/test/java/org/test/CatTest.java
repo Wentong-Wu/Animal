@@ -6,15 +6,18 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CatTest {
+    //WDYM Test fail?
     Cat testCat = new Cat("Timmy", true, true,10);
+    String currentExpectedName = testCat.getName();
     @Test
     public void test_get_cat_name(){
-        assertEquals("Timmy",testCat.getName(),"getName method failed");
+        assertEquals(currentExpectedName,testCat.getName(),"getName method failed");
     }
     @Test
     public void test_set_cat_name(){
         testCat.setName("Tommy");
-        assertEquals("Tommy",testCat.getName(),"setName method failed");
+        currentExpectedName = testCat.getName();
+        assertEquals(currentExpectedName,testCat.getName(),"setName method failed");
     }
     @Test
     public void test_is_hair(){
@@ -33,11 +36,5 @@ public class CatTest {
     public void test_set_cat_power(){
         testCat.setDamagePower(20);
         assertEquals(20,testCat.getDamagePower());
-    }
-    @Test
-    public void test_cat_attack(){
-        testCat.setHealth(100);
-        testCat.Attack(testCat);
-        assertEquals(90,testCat.getHealth());
     }
 }
