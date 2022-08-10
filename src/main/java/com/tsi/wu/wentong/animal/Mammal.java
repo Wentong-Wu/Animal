@@ -14,6 +14,14 @@ public abstract class Mammal extends Animal{
         this.isMale = isMale;
     }
 
+    public boolean isMale() {
+        return isMale;
+    }
+
+    public void setMale(boolean male) {
+        isMale = male;
+    }
+
     public boolean isHair() {
         return hair;
     }

@@ -63,4 +63,15 @@ public class CatTest {
         testBat.Died();
         assertEquals(false,testBat.getisAlive());
     }
+    @Test
+    public void test_isMale(){
+        Bat testBat = new Bat("vamp",true,true);
+        assertEquals(true,testBat.isMale());
+    }
+    @Test
+    public void test_set_isMale(){
+        Bat testBat = new Bat("vamp",true,true);
+        testBat.setMale(false);
+        assertEquals(false,testBat.isMale());
+    }
 }
