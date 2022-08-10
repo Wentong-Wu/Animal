@@ -2,6 +2,7 @@ package com.tsi.wu.wentong.animal;
 
 public abstract class Animal {
     private int health = 100;
+    private boolean isAlive = true;
     private String name;
     protected Animal(String name)
     {
@@ -37,8 +38,10 @@ public abstract class Animal {
     public String Poop(){
         return "Stinky..";
     }
-    public String Die(){
-        return "RIP..";
+    public void Died(){
+        this.isAlive = false;
     }
-
+    public boolean getisAlive(){
+        return isAlive;
+    }
 }
