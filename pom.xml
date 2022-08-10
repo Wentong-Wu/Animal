@@ -31,9 +31,6 @@
             <version>1.2.0</version>
             <scope>test</scope>
         </dependency>
-
-
-
     </dependencies>
     <build>
         <plugins>
@@ -68,5 +65,4 @@
         </sonar.coverage.jacoco.xmlReportPaths>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 </project>
