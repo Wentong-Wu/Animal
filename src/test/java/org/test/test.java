@@ -52,15 +52,4 @@ public class test {
         testCat.Attack(testBat);
         assertEquals(90,testBat.getHealth(),"Attack not working");
     }
-    @Test
-    public void test_isAlive(){
-        Bat testBat = new Bat("vamp",true,true);
-        assertEquals(true,testBat.getisAlive());
-    }
-    @Test
-    public void test_die(){
-        Bat testBat = new Bat("vamp",true,true);
-        testBat.Died();
-        assertEquals(false,testBat.getisAlive());
-    }
 }
