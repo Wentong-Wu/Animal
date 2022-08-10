@@ -1,5 +1,7 @@
 package com.tsi.wu.wentong.animal;
 
+import java.lang.reflect.Constructor;
+
 public abstract class Mammal extends Animal{
 
     private boolean hair = true;

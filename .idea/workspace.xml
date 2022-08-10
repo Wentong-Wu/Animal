@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="be9b2e64-e5a1-4c9c-995a-11a1b5b1de75" name="Changes" comment="Please work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsi/wu/wentong/animal/Mammal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/test/CatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/test/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Animal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in Animal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Animal" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in Animal" />
       </list>
     </recent_temporary>

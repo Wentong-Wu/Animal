@@ -10,7 +10,6 @@ public abstract class Animal {
     }
     public abstract String eat();
     public abstract String breath();
-
     public abstract String breed();
 
     public String getName() {
@@ -41,6 +40,5 @@ public abstract class Animal {
     public String Die(){
         return "RIP..";
     }
-
 
 }

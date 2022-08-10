@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CatTest {
+public class test {
 
     @Test
     public void test_get_cat_name(){
