@@ -2,8 +2,8 @@ package com.tsi.wu.wentong.animal;
 
 public class Bat extends Mammal implements Flying{
 
-    public Bat(String name, boolean hair, boolean isMale){
-        super(name,hair,isMale);
+    public Bat(String name,int health, boolean hair, boolean isMale){
+        super(name,health,hair,isMale);
     }
     public String scream(){
         return "reeeeeeeeeeeee";

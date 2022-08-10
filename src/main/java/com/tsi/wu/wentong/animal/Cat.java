@@ -3,9 +3,9 @@ package com.tsi.wu.wentong.animal;
 public class Cat extends Mammal {
     private int Damagepower;
     private float hunger = 100;
-    public Cat(String name, boolean hair,boolean isMale, int damagepower)
+    public Cat(String name,int health, boolean hair,boolean isMale, int damagepower)
     {
-        super(name,hair,isMale);
+        super(name,health,hair,isMale);
         this.Damagepower = damagepower;
     }
 

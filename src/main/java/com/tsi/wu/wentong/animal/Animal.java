@@ -4,10 +4,11 @@ public abstract class Animal {
     private int health = 100;
     private boolean isAlive = true;
     private String name;
-    protected Animal(String name)
+    protected Animal(String name, int health)
     {
         super();
         this.name = name;
+        this.health = health;
     }
     public abstract String eat();
     public abstract String breath();
@@ -41,7 +42,7 @@ public abstract class Animal {
     public void Died(){
         this.isAlive = false;
     }
-    public boolean getisAlive(){
+    public boolean getIsAlive(){
         return isAlive;
     }
 }

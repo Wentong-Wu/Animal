@@ -7,9 +7,9 @@ public abstract class Mammal extends Animal{
     private boolean hair = true;
     private boolean isMale;
 
-    public Mammal(String name, boolean hair, boolean isMale)
+    public Mammal(String name,int health ,boolean hair, boolean isMale)
     {
-        super(name);
+        super(name,health);
         this.hair = hair;
         this.isMale = isMale;
     }
