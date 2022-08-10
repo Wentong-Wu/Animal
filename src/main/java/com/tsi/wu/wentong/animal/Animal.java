@@ -1,7 +1,7 @@
 package com.tsi.wu.wentong.animal;
 
 public abstract class Animal {
-    private int health = 100;
+    private int health;
     private boolean isAlive = true;
     private String name;
     protected Animal(String name, int health)
