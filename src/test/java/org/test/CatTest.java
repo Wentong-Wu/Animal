@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class test {
+public class CatTest {
 
     @Test
     public void test_get_cat_name(){
@@ -51,5 +51,16 @@ public class test {
         testBat.setHealth(100);
         testCat.Attack(testBat);
         assertEquals(90,testBat.getHealth(),"Attack not working");
+    }
+    @Test
+    public void test_isAlive(){
+        Bat testBat = new Bat("vamp",true,true);
+        assertEquals(true,testBat.getisAlive());
+    }
+    @Test
+    public void test_die(){
+        Bat testBat = new Bat("vamp",true,true);
+        testBat.Died();
+        assertEquals(false,testBat.getisAlive());
     }
 }

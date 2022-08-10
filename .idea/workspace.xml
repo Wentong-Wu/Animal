@@ -50,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test">
+  <component name="RunManager" selected="JUnit.CatTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Animal" />
@@ -66,16 +66,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Animal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.test.*" />
+          <option name="PATTERN" value="org.test.CatTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.test" />
-      <option name="MAIN_CLASS_NAME" value="org.test.test" />
+      <option name="MAIN_CLASS_NAME" value="org.test.CatTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,7 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.CatTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in Animal" />
       </list>
